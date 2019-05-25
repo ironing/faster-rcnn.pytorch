@@ -1,5 +1,5 @@
 
-from torch.utils.ffi import _wrap_function
+from torch.utils.cpp_extension import BuildExtension
 from ._roi_crop import lib as _lib, ffi as _ffi
 
 __all__ = []
